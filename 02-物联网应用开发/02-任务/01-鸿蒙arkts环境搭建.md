@@ -24,20 +24,20 @@
 
 ### 步骤1 注册华为账号
 
-1. 打开浏览器，访问华为开发者联盟官网 <https://developer.huawei.com/consumer/cn/>
+1. 打开浏览器，访问华为开发者联盟官网 [https://developer.huawei.com/consumer/cn/](https://developer.huawei.com/consumer/cn/)
 2. 点击页面右上角"注册"按钮，选择个人账号注册（企业开发者可选择企业账号）。
-    ![alt text](../09-其他/image994.png)
+   ![alt text](../09-其他/image994.png)
 3. 按照提示输入手机号或邮箱，设置登录密码，完成短信或邮件验证。
 4. 注册成功后，登录账号并完成实名认证（路径：账号中心-实名认证），上传身份证正反面照片并填写相关信息，提交审核（通常1-3个工作日完成）。
 5. 实名认证通过后，进入开发者联盟控制台，确认账号已具备鸿蒙应用开发权限。
 
 ### 步骤2 下载DevEco Studio
 
-1. 登录华为开发者联盟，进入"开发工具"页面<https://developer.huawei.com/consumer/cn/deveco-studio/>
+1. 登录华为开发者联盟，进入"开发工具"页面[https://developer.huawei.com/consumer/cn/deveco-studio/](https://developer.huawei.com/consumer/cn/deveco-studio/)
 2. 在DevEco Studio下载列表中，找到版本为5.1.1.840的安装包（根据操作系统选择Windows或macOS版本）。
 3. 点击下载，同意用户协议后等待下载完成（建议使用下载工具提高速度，安装包大小约1-2GB）。
 4. 下载完成后，校验安装包的MD5值（官网提供），确保文件未损坏。
-    ![alt text](../09-其他/image993.png)
+   ![alt text](../09-其他/image993.png)
 
 ### 步骤3 安装IDE
 
@@ -48,18 +48,18 @@
 5. 安装完成后，勾选"Run DevEco Studio"，点击"Finish"启动软件。
 6. 首次启动时，会提示安装SDK，选择"Automatic"（自动安装），在弹出的SDK版本选择界面中，勾选与DevEco Studio 5.1.1.840兼容的API版本（如API 10或API 11），点击"OK"。
 7. 等待SDK下载安装（过程需要联网，时间根据网络速度而定），完成后点击"Finish"。
-    ![alt text](../09-其他/image992.png)
+   ![alt text](../09-其他/image992.png)
 
 ### 步骤4 创建 "Hello World"程序
 
 1. 创建工程窗口
-    ![alt text](../09-其他/image991.png)
+   ![alt text](../09-其他/image991.png)
 2. 选择模板
-    ![alt text](../09-其他/image990.png)
+   ![alt text](../09-其他/image990.png)
 3. 配置项目名称
-    ![alt text](../09-其他/image989.png)
-    ![alt text](../09-其他/image988.png)
-    ![alt text](../09-其他/image987.png)
+   ![alt text](../09-其他/image989.png)
+   ![alt text](../09-其他/image988.png)
+   ![alt text](../09-其他/image987.png)
 4. 下载SDK
    这个地方很坑爹，经常会登录不上，也不知道华为什么原因，官网经常出问题
    ![alt text](../09-其他/image986.png)
@@ -74,7 +74,6 @@
     Solution: Check the network and HTTP proxy settings, and then try again.
 
    ```
-
 5. 进入工程目录
    ![alt text](../09-其他/image984.png)
 
@@ -82,7 +81,6 @@
    ![alt text](../09-其他/image983.png)
 
    **实在不行换个热点（换个运营商可能就好了，就是这么坑爹）**
-
 6. 下载模拟器
    ![alt text](../09-其他/image982.png)
 
@@ -92,15 +90,16 @@
 
    ![alt text](../09-其他/image980.png)
 
-   **等吧，没招，如果是学生上课，很多人一起下载，不敢想要下载多久:sweat_smile:**
-
+   **等吧，没招，如果是学生上课，很多人一起下载，不敢想要下载多久😅**
 7. 打开模拟器
-    ![alt text](../09-其他/image978.png)
+   ![alt text](../09-其他/image978.png)
 
-    **打开 Hyper-v**
-    ![alt text](../09-其他/image977.png)
+   **打开 Hyper-v**
+   ![alt text](../09-其他/image977.png)
 
-    ![alt text](../09-其他/image976.png)
+   ![alt text](../09-其他/image976.png)
+8. 运行程序
+   ![alt text](../09-其他/image975.png)
 
 ## 五、任务总结
 
@@ -108,4 +107,4 @@
 
 搭建正确的开发环境是进行鸿蒙应用开发的基础，本次实验验证了环境的可用性，为后续学习ArkTS语法、UI布局、状态管理等知识提供了稳定的开发平台。后续可进一步探索DevEco Studio的高级功能，如调试工具、性能分析等，提升开发效率。
 
-最重要是知道了官网经常会下载失败:gun:
+最重要是知道了官网经常会下载失败🔫
