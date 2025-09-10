@@ -86,11 +86,21 @@
 6. 下载模拟器
    ![alt text](../09-其他/image982.png)
 
+   ![alt text](../09-其他/image979.png)
+
    ![alt text](../09-其他/image981.png)
 
    ![alt text](../09-其他/image980.png)
 
    **等吧，没招，如果是学生上课，很多人一起下载，不敢想要下载多久:sweat_smile:**
+
+7. 打开模拟器
+    ![alt text](../09-其他/image978.png)
+
+    **打开 Hyper-v**
+    ![alt text](../09-其他/image977.png)
+
+    ![alt text](../09-其他/image976.png)
 
 ## 五、任务总结
 
